@@ -1,64 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Modern Gaming Site</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            font-family: 'Arial', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(135deg, #1e1e1e, #000);
-            color: #fff;
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
 
-        h1 {
-            font-size: 4em;
-            font-weight: bold;
-            text-align: center;
-            margin: 0;
-        }
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
 
-        .container {
-            text-align: center;
-            width: 100%;
-        }
+header h1 {
+    margin: 0;
+}
 
-        .container h2 {
-            font-size: 2em;
-            margin-top: 10px;
-            color: #ddd;
-        }
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-        .container a {
-            color: #4CAF50;
-            text-decoration: none;
-            font-size: 1.5em;
-            border: 2px solid #4CAF50;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
 
-        .container a:hover {
-            background-color: #4CAF50;
-            color: #000;
-        }
-    </style>
-</head>
-<body>
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
 
-<div class="container">
-    <h1>Welcome to My Gaming Site</h1>
-    <h2>Your hub for all things gaming</h2>
-    <a href="#">Enter</a>
-</div>
+section {
+    padding: 20px;
+    margin: 10px;
+}
 
-</body>
-</html>
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #007BFF;
+}
